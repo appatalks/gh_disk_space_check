@@ -9,7 +9,7 @@ Use (`disk_check.sh`) to quickly monitor disk space usage on a GitHub Enterprise
 
 - Displays the server time at run time.
 - Provides filesystem and inode information.
-- Reports the largest directories (to 4 levels deep).
+- Reports the largest directories (to 5 levels deep).
 - Reports the largest files and the largest files older than 30 days.
 - Excludes some directories from scans, ie. (`/proc` and `/data/user/docker/overlay2`).
 
