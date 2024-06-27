@@ -10,7 +10,7 @@
 
 # Function to display the server time
 display_server_time() {
-    echo "== Server Time: =="
+    echo -e "\n== Server Time: =="
     date
 }
 
