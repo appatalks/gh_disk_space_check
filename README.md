@@ -20,7 +20,7 @@ Use (`disk_check.sh`) to quickly monitor disk space usage on a GitHub Enterprise
 You can run the script directly from GitHub without cloning the repository. Use the following one-liner:
 
 ```sh
-bash <(curl -sL https://github.com/appatalks/gh_disk_space_check/raw/main/disk_check.sh)
+time bash <(curl -sL https://github.com/appatalks/gh_disk_space_check/raw/main/disk_check.sh)
 ```
 
 ### Optional add to ```cron```
